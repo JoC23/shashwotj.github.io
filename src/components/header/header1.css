@@ -1,5 +1,6 @@
 header {
-    background-color: var(--color-bg);
+    /* background-color: black; */
+    background-color: #182828;
     /* background-color: #2f4f4f; */
     /* height: 100vh; */
     padding-top: 3rem;
@@ -20,103 +21,68 @@ header {
     justify-content: center;
 }
 
-/* my mod  */
-.bg__me {
-    background: var(--color-primary);
-    /* width: 80%; */
-    height: 30rem;
-    margin: auto;
-    margin-top: 3rem;
-    border-radius: 5rem 5rem 0 0;
-    overflow: hidden;
-    padding: 2rem 1rem 1rem 1rem;
+.header__socialsCard {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-content: center;
 }
 
 /* my mod  */
 .header__socials {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem auto auto auto;
+    align-content: center;
+    align-items: baseline;
+    /* position: absolute;
+    bottom: 3rem;
+    left: 0; */
 }
 
 .header__socials::before,
 .header__socials::after {
     content: '';
-    height: 5px;
-    width: 100%;
+    /* height: 5px; */
+    width: 2rem;
+    width: 5px;
+    /* height: 2rem; */
     background: var(--color-primary);
 
 }
 
+.content__body{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+.bg__circle{
+    /* background: var(--color-primary); */
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    align-content: center;
+    vertical-align: middle;
+
+    
+}
+
+#circle-avatar {
+    vertical-align: middle;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
 .contact__me {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
     transition: rotate(90deg);
-    font-weight: 500;
+    font-weight: 300;
     font-size: 0.9rem;
-}
-
-/* Responsive Design */
-/* ====== responsive md query BIG MONITORS */
-@media screen and (min-width: 1600px) {
-    .bg__me {
-        width: 55%;
-        /* height: ; */
-
-        /* width: 30rem;
-        height: 45rem; */
-    }
-
-    .header__socials {
-        width: 55%;
-        margin: 1.5rem auto auto auto;
-    }
-
-}
-
-/* ====== responsive md query LAPTOP */
-@media screen and (min-width: 1025px) {
-    .bg__me {
-        width: 35rem;
-        height: 25rem;
-    }
-
-    .header__socials {
-        width: 35rem;
-    }
-
-    .bg__me>img {
-        width: 22rem;
-        margin: auto;
-    }
-}
-
-/* ====== responsive md query TABLET */
-@media screen and (max-width: 1024px) {
-    .bg__me {
-        width: 20rem;
-        height: 25rem;
-    }
-
-    .header__socials {
-        width: 20rem;
-    }
-}
-
-/* ====== responsive md query MOBILE */
-@media screen and (max-width: 600px) {
-    .bg__me {
-        width: 18rem;
-        height: 20rem;
-    }
-
-    .header__socials {
-        width: 18rem;
-    }
-
-    .cta {
-        gap: 1rem;
-    }
 }

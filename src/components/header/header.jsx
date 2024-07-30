@@ -5,7 +5,8 @@ import './header1.css';
 import CTA from './CTA';
 import HeaderSocials from './headerSocials';
 
-import MyPic from '../../assets/me.png';
+// import MyPic from '../../assets/me.png';
+import MyPic from '../../assets/uwu.jpg';
 
 const Header = () => {
   return (
@@ -16,16 +17,20 @@ const Header = () => {
       <h1>Shashwot Lal Joshi</h1>
       <h4 className="text-light">Developer</h4>
 
+      <div class='content__body'>
+
+        <img id='circle-avatar'src={MyPic} alt="MyPic" />
+      </div>
+
       <CTA/>
 
-      {/* <div className="header__socialsCard"> */}
-{/* 
-        <div className="bg__me">
-          <img src={MyPic} alt="MyPic" />
-        </div> */}
+      <br/>
 
-        {/* <HeaderSocials/> */}
-      {/* </div> */}
+      {/* <div className="header__socialsCard">
+        <HeaderSocials/>
+      </div> */}
+      
+
 
       {/* <a href="#contact" className="contact__me">Contact Me</a> */}
     

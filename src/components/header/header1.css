@@ -22,13 +22,17 @@ header {
     /* Keeps the content on a single line */
     white-space: nowrap;
     /* Gives that scrolling effect as the typing happens */
-    margin: 0 auto;
+    margin: auto;
+    /* for fixing width problems  */
+    max-width: fit-content;
+    padding: auto;
     /* Adjust as needed */
     letter-spacing: .15em;
     animation:
         typing 10s steps(40, end),
         blink-caret .75s step-end infinite;
 }
+
 
 /* The typing effect */
 @keyframes typing {

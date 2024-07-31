@@ -29,7 +29,7 @@ header {
     /* Adjust as needed */
     letter-spacing: .15em;
     animation:
-        typing 10s steps(40, end),
+        typing 10s steps(150, end),
         blink-caret .75s step-end infinite;
 }
 

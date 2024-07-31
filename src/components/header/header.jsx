@@ -5,7 +5,6 @@ import './header1.css';
 import CTA from './CTA';
 import HeaderSocials from './headerSocials';
 
-// import MyPic from '../../assets/me.png';
 import MyPic from '../../assets/uwu.jpg';
 
 const Header = () => {
@@ -13,26 +12,14 @@ const Header = () => {
     <header>
       {/* <div className="container  header__container"> */}
       <div className="container header__container">
-        <h4>Hello I'm</h4>
+        <h4 className='text-light'>Hello I'm</h4>
         <h1>Shashwot Lal Joshi</h1>
 
-        <text >
-          <h4>
-            <div class="typewriter">
-              Developer
-            </div>
-          </h4>
-        </text>
-
-
-        <div class="typewriter">
-          <h4>The cat and the hat.</h4>
-        </div>
-
-
+        <h4 className='text-light typewriter' id='developer'>
+          Developer
+        </h4>
 
         <div class='content__body'>
-
           <img id='circle-avatar' src={MyPic} alt="MyPic" />
         </div>
 

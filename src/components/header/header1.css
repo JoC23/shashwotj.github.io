@@ -14,6 +14,47 @@ header {
 
 }
 
+.typewriter {
+    /* Ensures the content is not revealed until the animation */
+    overflow: hidden;
+    /* The typwriter cursor */
+    border-right: .15em solid orange;
+    /* Keeps the content on a single line */
+    white-space: nowrap;
+    /* Gives that scrolling effect as the typing happens */
+    margin: 0 auto;
+    /* Adjust as needed */
+    letter-spacing: .15em;
+    animation:
+        typing 10s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
 .cta {
     margin-top: 2.5rem;
     display: flex;
@@ -52,15 +93,15 @@ header {
 
 }
 
-.content__body{
+.content__body {
     margin-top: 2.5rem;
     display: flex;
     gap: 5rem;
     justify-content: center;
-    
+
 }
 
-.bg__circle{
+.bg__circle {
     /* background: var(--color-primary); */
     width: 1rem;
     height: 1rem;
@@ -68,7 +109,7 @@ header {
     align-content: center;
     vertical-align: middle;
 
-    
+
 }
 
 #circle-avatar {

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbc4c14d.css",
-    "main.js": "/static/js/main.9b263503.js",
+    "main.css": "/static/css/main.d9252dbb.css",
+    "main.js": "/static/js/main.662bd707.js",
     "static/media/uwu.jpg": "/static/media/uwu.5fb00b648dd0cb1388ac.jpg",
     "static/media/cv.pdf": "/static/media/cv.e96df3e7d1bacc0f1bf1.pdf",
     "index.html": "/index.html",
-    "main.fbc4c14d.css.map": "/static/css/main.fbc4c14d.css.map",
-    "main.9b263503.js.map": "/static/js/main.9b263503.js.map"
+    "main.d9252dbb.css.map": "/static/css/main.d9252dbb.css.map",
+    "main.662bd707.js.map": "/static/js/main.662bd707.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbc4c14d.css",
-    "static/js/main.9b263503.js"
+    "static/css/main.d9252dbb.css",
+    "static/js/main.662bd707.js"
   ]
 }

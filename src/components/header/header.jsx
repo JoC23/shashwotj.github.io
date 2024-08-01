@@ -15,7 +15,7 @@ const Header = () => {
         <h4 className='text-light'>Hello I'm</h4>
         <h1>Shashwot Lal Joshi</h1>
 
-        <h4 className='text-light typewriter' id='developer'>
+        <h4 className='text-light typewriter'>
           Developer
         </h4>
 

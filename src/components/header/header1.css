@@ -18,7 +18,7 @@ header {
     /* Ensures the content is not revealed until the animation */
     overflow: hidden;
     /* The typwriter cursor */
-    border-right: .15em solid orange;
+    border-right: .65em solid orange;
     /* Keeps the content on a single line */
     white-space: nowrap;
     /* Gives that scrolling effect as the typing happens */

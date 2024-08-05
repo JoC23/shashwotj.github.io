@@ -15,8 +15,9 @@ const App = () => {
 
     // components 
     <>
-      <Header />  
-      <br/>
+      <Header />
+      <br />
+
       {/* <Nav /> */}
       {/* <br/> */}
       {/* <About /> */}

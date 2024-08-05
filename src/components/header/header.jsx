@@ -5,42 +5,43 @@ import './header1.css';
 import CTA from './CTA';
 import HeaderSocials from './headerSocials';
 
-// import MyPic from '../../assets/me.png';
 import MyPic from '../../assets/uwu.jpg';
 
 const Header = () => {
   return (
     <header>
-    {/* <div className="container  header__container"> */}
-    <div className= "container header__container">
-      <h4>Hello I'm</h4>
-      <h1>Shashwot Lal Joshi</h1>
-      <h4 className="text-light">Developer</h4>
+      {/* <div className="container  header__container"> */}
+      <div className="container header__container">
+        <h4 className='text-light'>Hello I'm</h4>
+        <h1>Shashwot Lal Joshi</h1>
 
-      <div class='content__body'>
+        <h4 className='text-light typewriter'>
+          Developer
+        </h4>
 
-        <img id='circle-avatar'src={MyPic} alt="MyPic" />
-      </div>
+        <div class='content__body'>
+          <img id='circle-avatar' src={MyPic} alt="MyPic" />
+        </div>
 
-      <CTA/>
+        <CTA />
 
-      <br/>
+        <br />
 
-      {/* <div className="header__socialsCard">
+        {/* <div className="header__socialsCard">
         <HeaderSocials/>
       </div> */}
-      
 
 
-      {/* <a href="#contact" className="contact__me">Contact Me</a> */}
-    
-    <br></br>
-    xx Work in progress xx
-      
+
+        {/* <a href="#contact" className="contact__me">Contact Me</a> */}
+
+        <br></br>
+        xx Work in progress xx
 
 
-    </div>
-  </header>
+
+      </div>
+    </header>
   )
 };
 

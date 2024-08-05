@@ -1,0 +1,15 @@
+header {
+    /* background-color: black; */
+    /* background-color: #182828;   */
+    background-color: #2f4f4f;
+    height: 100vh;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background-color: aquamarine;
+}

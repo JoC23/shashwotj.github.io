@@ -1,0 +1,88 @@
+header {
+    /* background-color: black; */
+    background-color: #182828;
+    /* background-color: #2f4f4f; */
+    /* height: 100vh; */
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+
+}
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.header__socialsCard {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-content: center;
+}
+
+/* my mod  */
+.header__socials {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-content: center;
+    align-items: baseline;
+    /* position: absolute;
+    bottom: 3rem;
+    left: 0; */
+}
+
+.header__socials::before,
+.header__socials::after {
+    content: '';
+    /* height: 5px; */
+    width: 2rem;
+    width: 5px;
+    /* height: 2rem; */
+    background: var(--color-primary);
+
+}
+
+.content__body{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    
+}
+
+.bg__circle{
+    /* background: var(--color-primary); */
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    align-content: center;
+    vertical-align: middle;
+
+    
+}
+
+#circle-avatar {
+    vertical-align: middle;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.contact__me {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transition: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
